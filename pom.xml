@@ -25,4 +25,17 @@
         <version>3.6</version> 
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.4.0</version>
+        <configuration>
+          <mainClass>ru.spbstu.telematics.java.App</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
