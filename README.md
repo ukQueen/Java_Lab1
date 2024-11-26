@@ -7,14 +7,14 @@
 4) Maven 3+
 5) Git
 
-### Вариант
-17. Запись массива в матрицу "змейкой"
+### Задание
+Реализовать запись массива в матрицу "змейкой"
 
 ---
 
 ### Создание проекта
 ```
-mvn archetype:generate -DgroupId=ru.spbstu.telematics.java -DartifactId=${ProjectName} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=ru.spbstu.telematics.java -DartifactId=1lab -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 Заменить в pom.xml зависимость junit на
