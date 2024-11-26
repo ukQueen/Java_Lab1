@@ -40,24 +40,6 @@ public class App
         return matrix;
     }
 
-    public static void printMatrixInt(int [][] matrix) {
-        System.out.println("Matrix:");
-        for (int i=0;i<matrix.length;i++){
-            for (int j=0;j<matrix[i].length;j++){
-                System.out.print(matrix[i][j]+"\t");
-            }
-            System.out.println();
-        }
-    }
-
-    public static void printArrayInt(int [] arr){
-        System.out.println("Array:");
-        for (int i=0;i<arr.length;i++){
-            System.out.print(arr[i]+"\t");
-        }
-        System.out.println();
-    }
-
     public static int[] removeFirsElemInt(int[] arr) {
         int[] newArr =  new int[arr.length - 1];
         System.arraycopy(arr, 1, newArr, 0, newArr.length);
@@ -97,31 +79,11 @@ public class App
         return matrix;
     }
 
-    
-    public static void printMatrixDouble(double [][] matrix) {
-        System.out.println("Matrix:");
-        for (int i=0;i<matrix.length;i++){
-            for (int j=0;j<matrix[i].length;j++){
-                System.out.print(matrix[i][j]+"\t");
-            }
-            System.out.println();
-        }
-    }
-
-    public static void printArrayDouble(double [] arr){
-        System.out.println("Array:");
-        for (int i=0;i<arr.length;i++){
-            System.out.print(arr[i]+"\t");
-        }
-        System.out.println();
-    }
-
     public static double[] removeFirsElemDouble(double[] arr) {
         double[] newArr =  new double[arr.length - 1];
         System.arraycopy(arr, 1, newArr, 0, newArr.length);
         return newArr;
     }
-
 
 
 
@@ -156,34 +118,9 @@ public class App
         return matrix;
     }
 
-    
-    public static void printMatrixChar(char [][] matrix) {
-        System.out.println("Matrix:");
-        for (int i=0;i<matrix.length;i++){
-            for (int j=0;j<matrix[i].length;j++){
-                System.out.print(matrix[i][j]+"\t");
-            }
-            System.out.println();
-        }
-    }
-
-    public static void printArrayChar(char [] arr){
-        System.out.println("Array:");
-        for (char i=0;i<arr.length;i++){
-            System.out.print(arr[i]+"\t");
-        }
-        System.out.println();
-    }
-
     public static char[] removeFirsElemChar(char[] arr) {
         char[] newArr =  new char[arr.length - 1];
         System.arraycopy(arr, 1, newArr, 0, newArr.length);
         return newArr;
-    }
-
-
-
-
-
-    
+    }    
 }
